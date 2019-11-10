@@ -5,3 +5,24 @@ body.logPage-body {
 .container.logPage-container {
     margin-top: 8%;
 }
+
+.card.logPage-card {
+    padding: 40px 0 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+img.logPage-img {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+form.logPage-form {
+    max-width: 350px;
+    margin: auto;
+    
+}
