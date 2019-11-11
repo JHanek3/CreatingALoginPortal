@@ -22,15 +22,22 @@
                         <img src="assets/DevslopesLogo.png" class="img-fluid logPage-img">
                         <form class="logPage-form">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" id="passwordInnput" placeholder="Password">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="button" class="logPage-btn btn-lg">Sign In</button>
+                            <div class="form-check">
+                                <lable class="form-check-label">
+                                    <input class="form-check-input" type="checkbox"> Remember me <a href="#">Need help?</a>
+                                </lable>
+                            </div>
                         </form>
+                        
                     </div>
                 </div>
+                <a href="#" class="create-new-account">Create New Account</a>
             </div>
             <div class="col"></div>
 
@@ -46,7 +53,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!--  Always Download latest version of Boostrap and add here-->
     <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-</body></html>
+</body>
+
+</html>
 <!--
 Bootstrap wants stuff in the container
 added grid min, min css
@@ -56,4 +65,7 @@ Container is a class of itself, so .container
 Forms live in a form group, and want the image to stack ontop of it
 Margin auto, any extra space cause even distribution
 Img stack, then display block
+Input field should be included in your form
+Remember grab element than class name
+
 -->
